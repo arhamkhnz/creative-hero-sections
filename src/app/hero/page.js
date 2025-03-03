@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { motion, useScroll, useTransform } from "motion/react";
 import { MoveDown } from "lucide-react";
 
-export default function page() {
+export default function MotionHeroSection() {
   const scrollTriggerRef = useRef(null);
 
   const { scrollYProgress } = useScroll({
